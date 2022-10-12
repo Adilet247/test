@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background: rgba(121, 116, 116, 0.1);
+    border: 3px solid #FF0000;
+    border-radius: 12px;
+    margin: 4%;
+    display: flex;
+    padding: 10px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    background-color: black;
+    font-family: 'Fira Sans' , sans-serif;
+}
+.logoNumber {
+
+}
+.menu {
+    color: #FFFFFF;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logoNumber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+}
+.ux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+}
+.uxLine {
+    border: 1px solid red;
+    width: 90%;
+}
+.bac {
+    position: absolute;
+    width: 477px;
+    height: 477px;
+    background: rgb(216, 16, 16);
+    filter: blur(150px);
+}
